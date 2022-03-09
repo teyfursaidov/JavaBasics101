@@ -1,0 +1,46 @@
+Constructors in Java:
+    Constructors in Java are special block of code similar to methods that initialize the objects of a class.
+
+Rules:
+    1. They do not have return types not even void.
+    2. Name of the constructor must be same as name of the class.
+    3. Constructors can not have non access modifiers like static final etc.
+    4. We can use the access modifiers like public private protected with constructors.
+    5. If we do not write a constructor in a class a default constructor is provided by compiler.
+    6. We can have multiple constructors in a class but their number of arguments sequence of
+        argument or type of arguments should be different.
+    7. If we have multiple constructors then Java decides which constructor to call based on the parameters we pass.
+
+'This' keyword:
+*It is a reserved keyword in Java that we can use to refer to instance variables methods or constructor of class.
+    1. 'this' keyword is used to distinguish instance variables with local variables.
+    2.  'this' keyword can be used to call the constructor of a class inside another constructors.
+    3. We can use 'this' keyword to call the methods of a class.
+
+Rules:
+    1. this() should be the first line inside a constructor.
+    2. this() can not be used inside a method.
+=========================================================================
+
+Inheritance.
+    Is a mechanism in which one class acquires all the properties and behaviors
+        or methods of parent class.
+    The idea behind inheritance in Java is that you can create
+        new classes that are built upon existing classes.
+    When we inherit from an existing class, we can reuse methods and fields of parent class,
+        and we can add new methods and fields also.
+* extends keyword used to inherit the properties/methods of a class.
+   Inheritance represents the IS-A relationship also known as parent-child relationship.
+    Syntax of Inheritance:
+            class Subclass-Name extends SuperClass-Name{
+            //methods and fields
+            }
+Advantages of Inheritance:
+    Less development time, takes less memory, executes faster.
+
+
+Types of Inheritance:
+    1. Single --> exists single base class and single derived class
+    2. Multilevel -->
+    3. Hierarchical --> more than one child class(subclasses) / more than one child with same parent class
+

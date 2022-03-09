@@ -1,0 +1,40 @@
+Types of variables:
+    There are three types of variables local, instance and static.
+local variables:
+    The variables that are declared inside a method or block of code are called local
+        variables.
+Pros:
+    Save Memory.
+Cons:
+    Limited access can not be accessed out side of methods or block of code where they are
+        declared.
+Instance variables:
+       The variables which are declared inside a class but, outside a method or block of code
+           are called instance variables.
+Pros:
+    Instance variables are accessible in all the methods of that class
+Cons:
+    They occupy the computers memory for longer as compared to local variables.
+Static variables:
+    If instance variables have the static keyword with them, they are called static variables.
+Pros:
+    Simgle memory location for all the objects of that class.
+Cons:
+    Can hold only one value for all the objects and stays even longer inside the memory thatn instance variables.
+======================================================================================================
+Access modifiers:
+    Access modifiers are keywords in Java that defines from where a certain variable, method or
+        a class can be accessed.
+There are 4 types of access in Java that we can define using three keywords.
+    1. Private
+    2. Protected
+    3. Public
+        Types of access are 4
+        1. private (keyword is private) - when we use the private keyword with any of the variable, methods or classes
+            these can only be accessed within that class.
+        2. default (applied when no keyword is used) - applied when we dont use any keyword. default is applied by Java
+            to those variables methods or classes etc. Which means these things can only be accessed from the
+                same package.
+        3. protected - we use the protected class when access is applied class members(variable methods etc.)
+            can be accessed from other packages but only in the classes that participate in inheritance.
+        4. public - public means class members and classes can be accessed from anywhere inside that project.

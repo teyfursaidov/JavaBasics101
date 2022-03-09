@@ -1,0 +1,28 @@
+
+Access Modifiers in Java:
+    Allow us to control the visibility of class
+        members(fields, methods, constructors etc.) and classes itself in Java.
+A sanity check or sanity test is a basic test to quickly evaluate whether a claim or the result
+    of a calculation can possibly be true. It is a simple check to see if the produced
+        material is rational (that the material's creator was thinking rationally, applying sanity).
+
+There are 4 access levels and 3 keywords that we use to define these access level fourth level is applied when
+        we do not use any access modifier keyword.
+Levels from most restricted to less restricted are:
+    1. private(keyword is also private)
+    2. default (no keyword means default access level)
+    3. protected (keyword is also protected)
+    4. public (keyword is also public)
+
+Rules:
+    1. We should always prefer private access modifier for the fields.
+        Reason: fields contain the data and the methods of your class might use that data to perform some tasks
+            if we do not perform sanity check before setting the values to these fields our classes and methods might
+                misbehave also the access of the data should be restricted so that not every one can access the data.
+    2. We can not use access modifiers with local variables
+
+Constructor is shortcut, so that we do not assign each field in main.
+    Rule no1
+        Constructors do not have return types like int, String or void
+    Rule no2
+        Name of the constructor should be same as name of the class.
